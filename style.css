@@ -1,0 +1,178 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(36, 95, 150, 0.3)
+}
+
+.header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url(https://tmpromotop.ru/pics/9a68f44db8c04fd6fe1abfddf1ba7976.gif);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0 0 10px 0;
+
+}
+
+.overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+.header-title {
+    font-size: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 250;
+    margin: auto;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    min-height: 75px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1330px;
+    min-width: 1280px;
+    margin: 40px auto;
+
+
+}
+
+.menu-link {
+    font-size: 18px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #10191E;
+}
+
+.main {
+    max-width: 1330px;
+    min-width: 1280px;
+    margin: auto;
+}
+
+.project {
+    background-position: center;
+    background-size: cover;
+
+}
+
+.project_beginner {
+    width: 636px;
+    height: 430px;
+}
+
+.project_music-album {
+    background-image: url(https://code.s3.yandex.net/web-code/album.png);
+    margin: auto 10px;
+}
+
+.project_design-principles {
+    background-image: url(https://code.s3.yandex.net/web-code/design.png);
+    margin: auto 10px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-row_reversed {
+    flex-direction: row-reverse;
+    margin: 60px 0;
+}
+
+.flex-column {
+    width: 636px;
+    height: 557px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column_reversed {
+    flex-direction: column-reverse;
+    margin: auto 10px;
+}
+
+.project_procrastinate {
+    width: 636px;
+    height: 557px;
+    margin: auto 10px;
+}
+
+.project-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project_p5 {
+    width: 636px;
+    height: 240px;
+}
+
+.flex-row_frameworks-inner {
+    width: 636px;
+    height: 290px;
+}
+
+.project_reactive {
+    width: 306px;
+    height: 290px;
+    background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+}
+
+.project_slider {
+    width: 306px;
+    height: 290px;
+    background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+}
+
+.project_vanilla {
+    width: 306px;
+    height: 290px;
+}
+
+.project_how-to-study {
+    background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+    order: 3;
+}
+
+.project_across-russia {
+    background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+    order: 2;
+    flex-basis: 636px;
+}
+
+.project_mesto {
+    background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+    order: 1;
+    margin: 0 0 35px 0;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 3000px;
+    min-width: 1280px;
+    margin: auto;
+    background-color: black;
+}
+
+.logo {
+    width: 145px;
+    height: 25px;
+    background-image: url(https://bit-tech-torg.ru/images/brands/609ed8b8e3238.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
