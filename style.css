@@ -158,21 +158,18 @@ body {
 
 .footer {
     height: 150px;
-    width: 100%;
+    width: 1520;
     display: flex;
     justify-content: center;
-    max-width: 3000px;
+    max-width: 100%;
     min-width: 1280px;
     margin: auto;
     background-color: black;
 }
 
-.logo {
-    width: 145px;
-    height: 25px;
-    background-image: url(https://bit-tech-torg.ru/images/brands/609ed8b8e3238.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.footer-sign {
+    color: white;
+    font-size: 16px;
     margin: auto;
+    text-align: center;
 }
