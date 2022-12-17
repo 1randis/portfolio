@@ -5,6 +5,7 @@ body {
 
 .header {
     height: 100vh;
+    width: 100vw;
     background-color: #eee;
     background-image: url(https://tmpromotop.ru/pics/9a68f44db8c04fd6fe1abfddf1ba7976.gif);
     background-size: cover;
